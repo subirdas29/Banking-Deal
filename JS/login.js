@@ -8,9 +8,9 @@ document.getElementById('btn').addEventListener('click',function(){
     console.log(mail)
 
     if(mail === 'joy@gmail.com' && pass === '123456'){
-        console.log('valid user')
+        window.location.href ='bank.html'
     }
     else{
-        console.log('invalid user')
+        alert('You are an invalid user.please enter valid email and password')
     }
 })
